@@ -1,4 +1,4 @@
-# Synthetic Review Data Generator with Quality Guardrails
+# Synthetic Review Data Generator with Quality Guardrails.
 
 A LangGraph-based system for generating high-quality synthetic reviews with configurable personas, multi-model support, and comprehensive quality guardrails.
 
