@@ -1,0 +1,16 @@
+{
+  "openai:gpt-4o-mini": {
+    "accepted_count": 1,
+    "rejected_count": 0,
+    "total_generation_time": 4.554757118225098,
+    "total_evaluation_time": 1.491896629333496,
+    "total_retries": 0
+  },
+  "groq:llama-3.3-70b-versatile": {
+    "accepted_count": 4,
+    "rejected_count": 1,
+    "total_generation_time": 9.83279275894165,
+    "total_evaluation_time": 18.454994201660156,
+    "total_retries": 8
+  }
+}
