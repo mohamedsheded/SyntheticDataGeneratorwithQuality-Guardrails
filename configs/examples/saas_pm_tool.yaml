@@ -1,0 +1,43 @@
+domain: "SaaS Project Management Tool"
+personas:
+  - name: "Startup Founder"
+    tone: "pragmatic"
+    expectations: ["speed", "pricing", "ease-of-use"]
+  
+  - name: "Enterprise PM"
+    tone: "formal"
+    expectations: ["compliance", "scalability", "security"]
+  
+  - name: "Freelancer"
+    tone: "casual"
+    expectations: ["affordability", "simplicity"]
+
+rating_distribution:
+  1: 0.05
+  2: 0.10
+  3: 0.20
+  4: 0.35
+  5: 0.30
+
+review_characteristics:
+  length: ["short", "medium"]
+  include_pros_cons: true
+  mention_features: true
+
+models:
+  - provider: "groq"
+    model: "llama-3.3-70b-versatile"
+    temperature: 0.7
+    max_tokens: 500
+
+guardrails:
+  diversity:
+    vocab_overlap_threshold: 0.3
+    semantic_similarity_threshold: 0.85
+  bias:
+    sentiment_rating_mismatch_threshold: 0.5
+    z_score_threshold: 2.0
+  realism:
+    realism_score_threshold: 0.7
+  max_retries: 2
+

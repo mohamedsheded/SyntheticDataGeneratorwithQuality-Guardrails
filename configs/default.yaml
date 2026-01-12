@@ -1,0 +1,35 @@
+domain: "Generic Product"
+personas:
+  - name: "Average User"
+    tone: "neutral"
+    expectations: ["usability", "value"]
+
+rating_distribution:
+  1: 0.05
+  2: 0.10
+  3: 0.20
+  4: 0.35
+  5: 0.30
+
+review_characteristics:
+  length: ["short", "medium"]
+  include_pros_cons: true
+  mention_features: true
+
+models:
+  - provider: "openai"
+    model: "gpt-4o-mini"
+    temperature: 0.7
+    max_tokens: 500
+
+guardrails:
+  diversity:
+    vocab_overlap_threshold: 0.3
+    semantic_similarity_threshold: 0.85
+  bias:
+    sentiment_rating_mismatch_threshold: 0.5
+    z_score_threshold: 2.0
+  realism:
+    realism_score_threshold: 0.7
+  max_retries: 2
+
