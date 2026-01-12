@@ -8,6 +8,16 @@ import openai
 import groq
 from pathlib import Path
 
+# Try to import langsmith for tracing
+try:
+    from langsmith import traceable
+except ImportError:
+    # If langsmith is not available, create a no-op decorator
+    def traceable(func=None, **kwargs):
+        if func is None:
+            return lambda f: f
+        return func
+
 # Try to load .env file if python-dotenv is available
 try:
     from dotenv import load_dotenv
@@ -72,6 +82,7 @@ class OpenAIProvider(LLMProvider):
         
         self.client = openai.OpenAI(api_key=api_key)
     
+    @traceable(name=f"openai_generate", run_type="llm")
     def generate(self, prompt: str, **kwargs) -> tuple[str, float]:
         """Generate using OpenAI API"""
         start_time = time.time()
@@ -121,6 +132,7 @@ class GroqProvider(LLMProvider):
         
         self.client = groq.Groq(api_key=api_key)
     
+    @traceable(name=f"groq_generate", run_type="llm")
     def generate(self, prompt: str, **kwargs) -> tuple[str, float]:
         """Generate using Groq API"""
         start_time = time.time()
