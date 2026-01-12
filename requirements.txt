@@ -2,6 +2,7 @@ langgraph==1.0.5
 langchain==1.2.3
 langchain-openai==1.1.7
 langchain-community==0.4.1
+langsmith>=0.6.2
 pydantic==2.12.5
 pyyaml==6.0.3
 openai==2.15.0
