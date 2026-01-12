@@ -162,12 +162,20 @@ OPENAI_API_KEY=your_openai_api_key_here
 # Required if using Groq models (e.g., llama-3.3-70b-versatile)
 # Get your API key from: https://console.groq.com/keys
 GROQ_API_KEY=your_groq_api_key_here
+
+# Optional: LangSmith tracing for observability
+# Get your API key from: https://smith.langchain.com
+# Enable tracing to monitor LLM calls and LangGraph execution
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your_langsmith_api_key_here
+LANGCHAIN_PROJECT=review-generation  # Optional: project name for organizing traces
 ```
 
 **Note**: 
 - `OPENAI_API_KEY` is **required** if your configuration uses OpenAI models
 - `GROQ_API_KEY` is **required** if your configuration uses Groq models
 - Set the appropriate API key(s) based on which provider(s) you use in your config
+- `LANGCHAIN_TRACING_V2` and `LANGCHAIN_API_KEY` are **optional** - enable these to trace all LLM calls and LangGraph execution in LangSmith. If not set, tracing will be silently skipped.
 
 ## Usage
 
