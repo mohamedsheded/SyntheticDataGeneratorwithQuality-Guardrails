@@ -144,10 +144,7 @@ cython_debug/
 .DS_Store
 
 # Project-specific
-output/
-*.mmd
-*.png
-graph_diagram.*
+
 
 # OS files
 .DS_Store
