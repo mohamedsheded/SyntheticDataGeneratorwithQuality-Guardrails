@@ -214,4 +214,5 @@ See `configs/examples/saas_pm_tool.yaml` for an example configuration file.
 - `tests/`: Test suite
 - `visualize_graph.py`: Graph visualization utility (generates Mermaid diagram)
 - `GUARDRAILS_EXPLAINED.md`: Detailed guardrail documentation and troubleshooting
+- `output.md`: Example output documentation showing generation and comparison results
 
