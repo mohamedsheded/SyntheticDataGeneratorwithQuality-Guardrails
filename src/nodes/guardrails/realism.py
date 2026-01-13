@@ -32,10 +32,13 @@ def check_realism(state: GlobalState) -> GlobalState:
         state["current_review"] = review
         return state
     
-    # Use a model for validation (prefer groq models, then openai if available)
+    # Use a model for validation (prefer openrouter models, then groq, then openai if available)
     validation_model = None
     for m in config.models:
-        if m.provider == "groq":
+        if m.provider == "openrouter":
+            validation_model = m
+            break
+        elif m.provider == "groq":
             validation_model = m
             break
         elif m.provider == "openai" and "gpt" in m.model.lower():
@@ -55,7 +58,8 @@ def check_realism(state: GlobalState) -> GlobalState:
     
     # Get validation score
     try:
-        # Will use OPENAI_API_KEY from environment automatically
+        # Will use provider-specific API key from environment automatically
+        # (OPENROUTER_API_KEY for OpenRouter, GROQ_API_KEY for Groq, OPENAI_API_KEY for OpenAI)
         provider = create_provider(validation_model, api_key=None)
         response, _ = provider.generate(
             prompt,
