@@ -32,8 +32,8 @@ class ReviewCharacteristics(BaseModel):
 class ModelConfig(BaseModel):
     """Configuration for an LLM model"""
     
-    provider: Literal["openai", "groq"] = Field(default="openai", description="LLM provider (openai or groq)")
-    model: str = Field(..., description="Model name (e.g., gpt-4o-mini for OpenAI, llama-3.3-70b-versatile for Groq)")
+    provider: Literal["openai", "groq", "openrouter"] = Field(default="openai", description="LLM provider (openai, groq, or openrouter)")
+    model: str = Field(..., description="Model name (e.g., gpt-4o-mini for OpenAI, llama-3.3-70b-versatile for Groq, anthropic/claude-3.7-sonnet for OpenRouter)")
     temperature: float = Field(default=0.7, ge=0.0, le=2.0, description="Generation temperature")
     max_tokens: Optional[int] = Field(default=None, description="Maximum tokens to generate")
 
