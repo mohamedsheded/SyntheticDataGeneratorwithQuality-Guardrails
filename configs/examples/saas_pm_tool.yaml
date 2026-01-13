@@ -36,12 +36,12 @@ models:
 
 guardrails:
   diversity:
-    vocab_overlap_threshold: 0.3
-    semantic_similarity_threshold: 0.85
+    vocab_overlap_threshold: 0.6
+    semantic_similarity_threshold: 0.95
   bias:
     sentiment_rating_mismatch_threshold: 0.5
-    z_score_threshold: 2.0
+    z_score_threshold: 4.0
   realism:
-    realism_score_threshold: 0.7
-  max_retries: 2
+    realism_score_threshold: 0.5
+  max_retries: 5
 
