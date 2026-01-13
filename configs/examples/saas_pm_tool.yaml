@@ -33,6 +33,10 @@ models:
     model: "gpt-4o-mini"
     temperature: 0.7
     max_tokens: 500
+  - provider: "openrouter"
+    model: "anthropic/claude-3.7-sonnet"
+    temperature: 0.7
+    max_tokens: 500
 
 guardrails:
   diversity:
