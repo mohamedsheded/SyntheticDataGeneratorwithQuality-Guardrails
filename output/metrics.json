@@ -1,16 +1,16 @@
 {
   "openai:gpt-4o-mini": {
-    "accepted_count": 1,
-    "rejected_count": 0,
-    "total_generation_time": 4.554757118225098,
-    "total_evaluation_time": 1.491896629333496,
-    "total_retries": 0
-  },
-  "groq:llama-3.3-70b-versatile": {
     "accepted_count": 4,
-    "rejected_count": 1,
-    "total_generation_time": 9.83279275894165,
-    "total_evaluation_time": 18.454994201660156,
-    "total_retries": 8
+    "rejected_count": 8,
+    "total_generation_time": 32.473212003707886,
+    "total_evaluation_time": 87.8112485408783,
+    "total_retries": 41
+  },
+  "openrouter:anthropic/claude-3.7-sonnet": {
+    "accepted_count": 11,
+    "rejected_count": 9,
+    "total_generation_time": 91.19454216957092,
+    "total_evaluation_time": 99.13652205467224,
+    "total_retries": 45
   }
 }

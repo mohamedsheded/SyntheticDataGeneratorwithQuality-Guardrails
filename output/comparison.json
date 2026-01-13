@@ -1,26 +1,26 @@
 {
   "embedding": {
-    "mean_embedding_similarity": 0.2658371925354004,
-    "avg_max_similarity": 0.2253488540649414
+    "mean_embedding_similarity": 0.332755982875824,
+    "avg_max_similarity": 0.25084721148014066
   },
   "vocabulary": {
-    "synthetic_vocab_size": 254,
+    "synthetic_vocab_size": 525,
     "real_vocab_size": 40,
-    "vocab_jaccard": 0.0425531914893617,
-    "vocab_ratio": 6.35
+    "vocab_jaccard": 0.03102189781021898,
+    "vocab_ratio": 13.125
   },
   "sentiment": {
-    "synthetic_mean": 0.7304,
-    "synthetic_std": 0.39301487503655635,
+    "synthetic_mean": 0.9461333333333334,
+    "synthetic_std": 0.02930400806867363,
     "real_mean": 0.21075,
     "real_std": 0.21075,
-    "mean_difference": 0.5196500000000001
+    "mean_difference": 0.7353833333333334
   },
   "length": {
-    "synthetic_mean": 96.0,
-    "synthetic_std": 11.171392035015153,
+    "synthetic_mean": 90.2,
+    "synthetic_std": 16.174877639928738,
     "real_mean": 24.5,
     "real_std": 2.5,
-    "mean_difference": 71.5
+    "mean_difference": 65.7
   }
 }

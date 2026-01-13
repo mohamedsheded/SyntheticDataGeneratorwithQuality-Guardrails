@@ -1,6 +1,254 @@
 [
   {
     "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "As a startup founder, I had high hopes for this project management tool due to its appealing pricing and user-friendly interface. However, the speed is a major drawback; loading times are frustratingly slow, which hampers productivity. While features like task tracking and collaboration are useful, the overall performance issues make it hard to justify the cost when there are faster alternatives available.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.0,
+        "semantic_similarity": 0.0,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.5859,
+        "z_score": 0.0,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.59, z_score=0.00 (threshold: 4.00)",
+    "generation_time": 2.1877808570861816,
+    "evaluation_time": 9.900952100753784,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Freelancer",
+      "tone": "casual",
+      "expectations": [
+        "affordability",
+        "simplicity"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "I\u2019ve been using this project management tool for a couple of months now, and while it\u2019s affordable and easy to navigate, I do find it lacking in some advanced features. The task tracking and calendar integrations are super straightforward, which is great for keeping projects organized, but I wish there were more customization options. Overall, it\u2019s decent for freelancers on a budget, but it might not meet the needs of larger teams or complex projects.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.0,
+        "semantic_similarity": 0.0,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.891,
+        "z_score": 0.0,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.89, z_score=0.00 (threshold: 4.00)",
+    "generation_time": 4.273046970367432,
+    "evaluation_time": 8.175572156906128,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Freelancer",
+      "tone": "casual",
+      "expectations": [
+        "affordability",
+        "simplicity"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# \u2b50\u2b50\u2b50 Gets the job done, but not without frustrations\n\nThe basic task tracking and Gantt chart features are decent for the price point, making it workable for my small freelance projects without breaking the bank. However, the interface feels clunky and outdated, with too many clicks required for simple actions, and the mobile app is practically useless when I'm trying to update clients on the go. While I appreciate the affordable monthly plan, I'm constantly weighing whether the time I waste navigating its confusing notification system is worth the money I'm saving compared to premium alternatives.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.0916030534351145,
+        "semantic_similarity": 0.5072430968284607,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": -0.5709,
+        "z_score": 1.5042,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=-0.57, z_score=1.50 (threshold: 4.00)",
+    "generation_time": 4.37816596031189,
+    "evaluation_time": 11.801996231079102,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "As a startup founder, I've found this project management tool to be a mixed bag. On the positive side, its intuitive interface makes it easy for my team to jump in quickly, and the task automation features help streamline our workflows. However, the pricing can be a bit steep for startups on a tight budget, and I've noticed some lag in loading times when managing larger projects. Overall, it's a decent tool, but it could use optimization to balance speed and cost-effectiveness.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.10215529094089221,
+        "semantic_similarity": 0.6434776782989502,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.7783,
+        "z_score": 8.23342446955093,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.78, z_score=8.23 (threshold: 4.00)",
+    "generation_time": 2.1831438541412354,
+    "evaluation_time": 8.077858924865723,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Freelancer",
+      "tone": "casual",
+      "expectations": [
+        "affordability",
+        "simplicity"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# \u2b50\u2b50\u2b50\n\nLook, TaskFlow is decent enough for my freelance needs - the Gantt charts are helpful and the $19/month price tag won't break the bank. The interface is pretty straightforward once you get used to it, but the mobile app is frustratingly slow and the lack of customizable templates means I'm constantly rebuilding project structures from scratch.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.09976333039378114,
+        "semantic_similarity": 0.6400150656700134,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": -0.5187,
+        "z_score": 67.47206095443013,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=-0.52, z_score=67.47 (threshold: 4.00)",
+    "generation_time": 3.7686867713928223,
+    "evaluation_time": 7.3058922290802,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Freelancer",
+      "tone": "casual",
+      "expectations": [
+        "affordability",
+        "simplicity"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "## Project Buddy - \u2b50\u2b50\n\nLook, I appreciate that Project Buddy is affordable for a solo freelancer like me, but the interface is so cluttered that I waste more time figuring out how to use it than actually managing my projects. The basic task tracking works okay, but the time-tracking feature is buggy and has cost me billable hours, plus the mobile app crashes constantly when I'm trying to update clients on the go.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.12702146937909337,
+        "semantic_similarity": 0.8234555125236511,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.2023,
+        "z_score": 23.430090551041687,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.20, z_score=23.43 (threshold: 4.00)",
+    "generation_time": 5.505629062652588,
+    "evaluation_time": 6.265810966491699,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "As a startup founder, I was initially drawn to this project management tool for its competitive pricing and intuitive interface. However, the speed is a significant drawback; loading times are frustratingly slow, especially when managing larger projects. While features like task tracking and team collaboration are useful, the overall performance issues make it hard to justify the investment.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.11609691122471019,
+        "semantic_similarity": 0.6600558757781982,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.5423,
+        "z_score": 12.752355801351083,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.54, z_score=12.75 (threshold: 4.00)",
+    "generation_time": 2.5114963054656982,
+    "evaluation_time": 7.57485294342041,
+    "retry_count": 5
+  },
+  {
+    "persona": {
       "name": "Enterprise PM",
       "tone": "formal",
       "expectations": [
@@ -9,30 +257,353 @@
         "security"
       ]
     },
-    "rating": 5,
-    "model_id": "groq:llama-3.3-70b-versatile",
-    "review_text": "I am thoroughly impressed with this SaaS project management tool, which has exceeded my expectations with its robust compliance framework, including SOC 2 and GDPR adherence, and scalable architecture that seamlessly supports our large enterprise operations. While the initial onboarding process can be somewhat complex, the benefits far outweigh the drawbacks, particularly with features like automated workflows, real-time reporting, and advanced security measures such as two-factor authentication and data encryption. Overall, the tool's exceptional performance, coupled with its ability to adapt to our evolving needs, has earned it a well-deserved 5-star rating from our organization.",
+    "rating": 1,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# 1-Star Review: Unacceptable Enterprise Solution\n\nWhile the interface offers basic task assignment capabilities, this project management tool fundamentally fails to meet enterprise requirements with inadequate SOC 2 compliance documentation, frequent security breaches exposing sensitive project data, and an infrastructure that consistently crashes when scaling beyond 50 team members. The vendor's promises of \"enterprise-grade security\" proved entirely false, with no audit logs, weak encryption standards, and absolutely no SSO integration options that our compliance team requires for any production deployment.",
     "quality_scores": {
       "diversity": {
-        "vocab_overlap": 0.2097902097902098,
-        "semantic_similarity": 0.8545230627059937,
-        "pass": false
+        "vocab_overlap": 0.11280342733032363,
+        "semantic_similarity": 0.7674815058708191,
+        "pass": true
       },
       "bias": {
         "sentiment_rating_aligned": true,
-        "sentiment_compound": 0.9524,
-        "z_score": 0.017000000000000015,
-        "pass": "True"
+        "sentiment_compound": -0.8297,
+        "z_score": 62.43893206006824,
+        "pass": "False"
       },
       "realism": {
-        "realism_score": 0.95,
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": "False",
+    "rejection_reason": "Bias FAILED: sentiment_aligned=True, sentiment_compound=-0.83, z_score=62.44 (threshold: 4.00)",
+    "generation_time": 4.824721097946167,
+    "evaluation_time": 8.531356573104858,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Freelancer",
+      "tone": "casual",
+      "expectations": [
+        "affordability",
+        "simplicity"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "## 2-Star Review\n\nThe pricing is ridiculous for what you get - $30/month is way too steep for a freelancer like me when the Gantt charts constantly glitch and the time tracking feature randomly stops working. While I appreciate the clean interface and the mobile app that lets me check things on the go, the constant bugs and terrible customer support (waited 3 days for a response!) make this tool more frustrating than helpful.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.10884448725186234,
+        "semantic_similarity": 0.6567971110343933,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.6871,
+        "z_score": 9.327172511192197,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
         "pass": true
       }
     },
     "is_valid": false,
-    "rejection_reason": "Diversity FAILED: vocab_overlap=0.21 (threshold: 0.30), semantic_sim=0.85 (threshold: 0.85)",
-    "generation_time": 1.5160338878631592,
-    "evaluation_time": 7.128925800323486,
-    "retry_count": 2
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.69, z_score=9.33 (threshold: 4.00)",
+    "generation_time": 3.6192262172698975,
+    "evaluation_time": 10.221354961395264,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Enterprise PM",
+      "tone": "formal",
+      "expectations": [
+        "compliance",
+        "scalability",
+        "security"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# 2-Star Review: Insufficient Enterprise Capability\n\nWhile the task management interface is intuitive and the document repository functions adequately for basic needs, this platform falls significantly short in critical enterprise areas. The security protocols lack essential SOC 2 compliance and multi-factor authentication options, creating unacceptable vulnerability for sensitive corporate data. Additionally, the system demonstrates concerning performance degradation beyond 500 users, with insufficient role-based access controls and no audit logging capabilities that are absolute requirements for our regulated industry.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.11447467895684996,
+        "semantic_similarity": 0.7479075193405151,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": true,
+        "sentiment_compound": -0.8591,
+        "z_score": 63.46839258929884,
+        "pass": "False"
+      },
+      "realism": {
+        "realism_score": 0.9,
+        "pass": true
+      }
+    },
+    "is_valid": "False",
+    "rejection_reason": "Bias FAILED: sentiment_aligned=True, sentiment_compound=-0.86, z_score=63.47 (threshold: 4.00)",
+    "generation_time": 4.412204027175903,
+    "evaluation_time": 7.8717827796936035,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# 2-Star Review\n\nWhile the Gantt chart visualization is decent and the mobile app works adequately, this PM tool falls short where it matters most - it's frustratingly slow during peak hours and the pricing jumps dramatically once you exceed the limited free tier. The interface requires too many clicks to accomplish basic tasks, and the learning curve is steeper than advertised, making onboarding new team members a time-consuming process that our startup simply can't afford.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.09578705907185442,
+        "semantic_similarity": 0.5576435327529907,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.2585,
+        "z_score": 21.96288658258099,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.26, z_score=21.96 (threshold: 4.00)",
+    "generation_time": 3.9356141090393066,
+    "evaluation_time": 7.899480104446411,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "The project management tool offers impressive speed, allowing my team to create and manage tasks quickly. Its pricing is competitive for startups, making it a viable option for our budget. However, while the interface is generally user-friendly, I\u2019ve found some features like reporting and integrations to be lacking in depth, which can hinder more complex project tracking. Overall, it serves its purpose but leaves room for improvement.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.11309425746889296,
+        "semantic_similarity": 0.7882961630821228,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.8316,
+        "z_score": 3.591381813956147,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.83, z_score=3.59 (threshold: 4.00)",
+    "generation_time": 2.241180181503296,
+    "evaluation_time": 9.99647331237793,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Enterprise PM",
+      "tone": "formal",
+      "expectations": [
+        "compliance",
+        "scalability",
+        "security"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# 2-Star Review: Inadequate Enterprise Solution\n\nWhile the tool offers basic task tracking functionality, it falls significantly short in critical enterprise requirements with inadequate compliance controls that fail to meet industry standards and concerning security vulnerabilities in its permission structure. The platform's inability to scale beyond 500 users without severe performance degradation makes it unsuitable for our global operations, and the promised enterprise-grade encryption features were disappointingly absent despite being prominently advertised.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.10279927501926266,
+        "semantic_similarity": 0.7276992797851562,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": true,
+        "sentiment_compound": -0.7383,
+        "z_score": 53.9166746708121,
+        "pass": "False"
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": "False",
+    "rejection_reason": "Bias FAILED: sentiment_aligned=True, sentiment_compound=-0.74, z_score=53.92 (threshold: 4.00)",
+    "generation_time": 4.036764144897461,
+    "evaluation_time": 13.375708818435669,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "As a startup founder, I expected this project management tool to streamline our processes, but the speed is a major drawback\u2014loading times are frustratingly slow, making it hard to maintain momentum. While the pricing is competitive and the interface is user-friendly, the lack of key features like robust reporting and integrations with other tools has limited its effectiveness for our team. Overall, it has potential but needs significant improvements to meet our needs.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.14355942859858067,
+        "semantic_similarity": 0.7375847697257996,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.3919,
+        "z_score": 18.338419088221457,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.39, z_score=18.34 (threshold: 4.00)",
+    "generation_time": 2.609113931655884,
+    "evaluation_time": 8.731648683547974,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 2,
+    "model_id": "openrouter:anthropic/claude-3.7-sonnet",
+    "review_text": "# 2-Star Review\n\nWhile the Gantt chart feature is decent for visualizing project timelines, this PM tool falls short where it matters most - it's frustratingly slow when loading dashboards and the pricing structure jumps dramatically between tiers, forcing us to pay for enterprise features we don't need. The supposedly intuitive interface requires too many clicks to complete basic tasks, and our team consistently struggles with the overly complicated permission settings that have caused several critical workflow disruptions.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.11267136751859087,
+        "semantic_similarity": 0.5903839468955994,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": true,
+        "sentiment_compound": -0.8678,
+        "z_score": 63.43520488581758,
+        "pass": "False"
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": "False",
+    "rejection_reason": "Bias FAILED: sentiment_aligned=True, sentiment_compound=-0.87, z_score=63.44 (threshold: 4.00)",
+    "generation_time": 4.434531211853027,
+    "evaluation_time": 5.70102596282959,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Enterprise PM",
+      "tone": "formal",
+      "expectations": [
+        "compliance",
+        "scalability",
+        "security"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "The SaaS Project Management Tool offers commendable scalability and robust security features, including data encryption and user access controls, which are essential for enterprise compliance. However, while its intuitive interface facilitates team collaboration, the lack of comprehensive reporting tools may hinder project oversight and performance tracking. Overall, it serves as a solid foundation for project management, but improvements in analytics capabilities would enhance its value for larger organizations.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.12032128224583305,
+        "semantic_similarity": 0.7499962449073792,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.8225,
+        "z_score": 4.224435501360231,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.9,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.82, z_score=4.22 (threshold: 4.00)",
+    "generation_time": 2.188035011291504,
+    "evaluation_time": 18.547125816345215,
+    "retry_count": 5
+  },
+  {
+    "persona": {
+      "name": "Startup Founder",
+      "tone": "pragmatic",
+      "expectations": [
+        "speed",
+        "pricing",
+        "ease-of-use"
+      ]
+    },
+    "rating": 3,
+    "model_id": "openai:gpt-4o-mini",
+    "review_text": "As a startup founder, I've found this project management tool to be a mixed bag. On the plus side, its intuitive interface makes it easy to onboard team members quickly, and the real-time collaboration feature is a game-changer for our distributed team. However, while the pricing is competitive, the speed can lag during peak usage times, which can be frustrating when deadlines are tight. Overall, it gets the basics right but has room for improvement in performance.",
+    "quality_scores": {
+      "diversity": {
+        "vocab_overlap": 0.1307234846361554,
+        "semantic_similarity": 0.7300638556480408,
+        "pass": true
+      },
+      "bias": {
+        "sentiment_rating_aligned": false,
+        "sentiment_compound": 0.5647,
+        "z_score": 12.917538079334657,
+        "pass": false
+      },
+      "realism": {
+        "realism_score": 0.85,
+        "pass": true
+      }
+    },
+    "is_valid": false,
+    "rejection_reason": "Bias FAILED: sentiment_aligned=False, sentiment_compound=0.56, z_score=12.92 (threshold: 4.00)",
+    "generation_time": 4.747267007827759,
+    "evaluation_time": 8.159696340560913,
+    "retry_count": 5
   }
 ]
