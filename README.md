@@ -6,7 +6,7 @@ A LangGraph-based system for generating high-quality synthetic reviews with conf
 
 - **Multi-step Generation Pipeline**: Uses LangGraph to orchestrate review generation with quality validation
 - **Quality Guardrails**: Diversity, bias detection, and domain realism validation
-- **Multi-Model Support**: OpenAI and Groq integration
+- **Multi-Model Support**: OpenAI, Groq, and OpenRouter integration
 - **Configurable Personas**: Define custom personas with specific tones and expectations
 - **Real vs Synthetic Comparison**: Compare generated reviews against real review datasets
 - **Comprehensive Reporting**: Generate detailed quality reports with metrics
@@ -163,6 +163,10 @@ OPENAI_API_KEY=your_openai_api_key_here
 # Get your API key from: https://console.groq.com/keys
 GROQ_API_KEY=your_groq_api_key_here
 
+# Required if using OpenRouter models (e.g., anthropic/claude-3.7-sonnet)
+# Get your API key from: https://openrouter.ai/keys
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
 # Optional: LangSmith tracing for observability
 # Get your API key from: https://smith.langchain.com
 # Enable tracing to monitor LLM calls and LangGraph execution
@@ -174,6 +178,7 @@ LANGCHAIN_PROJECT=review-generation  # Optional: project name for organizing tra
 **Note**: 
 - `OPENAI_API_KEY` is **required** if your configuration uses OpenAI models
 - `GROQ_API_KEY` is **required** if your configuration uses Groq models
+- `OPENROUTER_API_KEY` is **required** if your configuration uses OpenRouter models
 - Set the appropriate API key(s) based on which provider(s) you use in your config
 - `LANGCHAIN_TRACING_V2` and `LANGCHAIN_API_KEY` are **optional** - enable these to trace all LLM calls and LangGraph execution in LangSmith. If not set, tracing will be silently skipped.
 
